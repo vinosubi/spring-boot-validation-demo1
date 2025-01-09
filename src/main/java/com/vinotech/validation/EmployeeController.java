@@ -16,4 +16,10 @@ public class EmployeeController {
         // Process the validated employee object
         return ResponseEntity.ok("Employee created successfully");
     }
+
+    @PostMapping("/update")
+    public ResponseEntity<String> updateEmployee(@Validated @RequestBody Employee employee) {
+        // Process the validated employee object
+        return ResponseEntity.ok("Employee created successfully");
+    }
 }

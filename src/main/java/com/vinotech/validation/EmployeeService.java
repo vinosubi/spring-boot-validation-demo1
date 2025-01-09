@@ -9,4 +9,9 @@ public class EmployeeService {
         // Process the employee data
         System.out.println("Processing employee: " + employee.getName());
     }
+
+    public void Test(Employee employee) {
+        // Process the employee data
+        System.out.println("Processing employee: " + employee.getName());
+    }
 }
